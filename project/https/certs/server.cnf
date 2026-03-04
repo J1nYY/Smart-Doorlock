@@ -1,0 +1,18 @@
+[ req ]
+prompt = no
+distinguished_name = dn
+req_extensions = req_ext
+
+[ dn ]
+C=KR
+ST=Seoul
+L=Seoul
+O=Doorlock
+CN=10.10.141.69
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+IP.1 = 10.10.141.69
+DNS.1 = doorlock.local
