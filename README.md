@@ -17,9 +17,10 @@ NFC의 메시지 길이/전송 안정성 제약을 고려해, 메시지 분할(C
 
 ##  시스템 아키텍처
 - 통신 시스템
-  ![architecture](assets/architecture1_1.png)
+  ![architecture1](assets/architecture1_1.png)
+  
 - 보안 시스템
-  ![architecture](assets/architecture1_2.png)
+  ![architecture2](assets/architecture1_2.png)
 
 ---
 
