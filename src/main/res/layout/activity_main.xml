@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name (signup용)" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회원가입" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로그인" />
+
+        <EditText
+            android:id="@+id/etKeyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="key_name (ex: my-phone)" />
+
+        <Button
+            android:id="@+id/btnRegisterKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="공개키 등록" />
+
+        <Button
+            android:id="@+id/btnListKeys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="키 목록 조회" />
+
+        <!-- ✅ 추가: NFC 문열기 허용 버튼 -->
+        <Button
+            android:id="@+id/btnAllowOpen30s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NFC 문열기 30초 허용" />
+
+        <Button
+            android:id="@+id/btnDisableOpen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="허용 끄기" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="결과" />
+    </LinearLayout>
+</ScrollView>
